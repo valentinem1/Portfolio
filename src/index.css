@@ -1,7 +1,8 @@
 body {
   margin: 0;
-  background-image: url('./images/portfolio-background-img.jpeg');
+  background-image: url('./images/background.jpeg');
   background-repeat: no-repeat;
+  background-size: 100vw;
 }
 
 code {

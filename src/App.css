@@ -1,1 +1,77 @@
+/* header css */
+.page-header{
+  background-color: #2D2D2D;
+  opacity: 68%;
+  position: fixed;
+  display: grid;
+  height: auto;
+  width: 100%;
+  min-height: auto;
+  grid-template-rows: 1fr;
+  grid-template-columns: 100%;
+}
 
+.website-name{
+  width: 174px;
+  pointer-events: none;
+  font-size: 22px;
+  line-height: 0.8em;
+  position: relative;
+  margin: 25px 0px 25px calc((100% - 980px) * 0.5);
+  left: 22px;
+  grid-area: 1 / 1 / 2 / 2;
+  justify-self: start;
+  align-self: start;
+  font-family: roboto-thin,roboto,sans-serif;
+  font-weight: lighter;
+  color: #ffffff;
+}
+
+.menu-container{
+  position: relative;
+  margin: 8px 0px 9px calc((100% - 980px) * 0.5);
+  left: 457px;
+  grid-area: 1 / 1 / 2 / 2;
+  justify-self: start;
+  align-self: start;
+  width: calc(100% - 0px);
+  height: calc(100% - 0px);
+  white-space: nowrap;
+  display: inline-block;
+  overflow: visible;
+  font-size: 22px;
+  line-height: 0.8em;
+}
+
+.home-btn{
+  /* width: 110px;
+  height: 50px;
+  position: relative;
+  box-sizing: border-box;
+  overflow: visible;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  line-height: 50px; */
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+.projects-btn{
+  width: 138px;
+  height: 50px;
+  position: relative;
+  box-sizing: border-box;
+  overflow: visible;
+  display: inline-block;
+  padding: 0 5px;
+  text-align: center;
+  line-height: 50px;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  text-decoration: none;
+}
