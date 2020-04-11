@@ -1,63 +1,80 @@
 /* header css */
 .page-header{
-  background-color: #2D2D2D;
   opacity: 68%;
-  position: fixed;
+  position: static;
   display: grid;
   height: auto;
   width: 100%;
   min-height: auto;
   grid-template-rows: 1fr;
   grid-template-columns: 100%;
+  background-color: rgba(45, 45, 45, 0.68);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+  background-image: url(https://static.parastorage.com/services/skins/2.1229.80/images/wysiwyg/core/themes/base/ironpatern.png);
 }
 
-.website-name{
-  width: 174px;
-  pointer-events: none;
-  font-size: 22px;
-  line-height: 0.8em;
+.header-name-container{
   position: relative;
   margin: 25px 0px 25px calc((100% - 980px) * 0.5);
   left: 22px;
   grid-area: 1 / 1 / 2 / 2;
   justify-self: start;
   align-self: start;
+  width: 174px;
+  pointer-events: none;
+}
+
+.website-name-header{
+  font-size: 22px;
+  line-height: 0.8em;
+  margin: 0;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.website-name{
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 22px;
+  color: #FFFFFF !important;
   font-family: roboto-thin,roboto,sans-serif;
-  font-weight: lighter;
-  color: #ffffff;
 }
 
 .menu-container{
+  width: 515px;
+  height: 50px;
+  overflow-x: visible;
   position: relative;
   margin: 8px 0px 9px calc((100% - 980px) * 0.5);
   left: 457px;
   grid-area: 1 / 1 / 2 / 2;
   justify-self: start;
   align-self: start;
-  width: calc(100% - 0px);
+  width: calc(100% - 980px);
   height: calc(100% - 0px);
   white-space: nowrap;
   display: inline-block;
   overflow: visible;
-  font-size: 22px;
-  line-height: 0.8em;
+  position: absolute;
+  text-align: center;
 }
 
 .home-btn{
-  /* width: 110px;
+  width: 138px;
   height: 50px;
   position: relative;
   box-sizing: border-box;
   overflow: visible;
   display: inline-block;
-  height: 100%;
-  width: 100%;
+  padding: 0 5px;
   text-align: center;
-  line-height: 50px; */
+  line-height: 50px;
   color: #ffffff;
   font-family: 'Roboto', sans-serif;
   font-weight: lighter;
   text-decoration: none;
+  font-size: 1.5vw;
 }
 
 .projects-btn{
@@ -74,4 +91,5 @@
   font-family: 'Roboto', sans-serif;
   font-weight: lighter;
   text-decoration: none;
+  font-size: 1.5vw;
 }

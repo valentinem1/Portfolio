@@ -7,8 +7,8 @@ class HeaderContainer extends Component {
     render() {
         return (
             <div className="page-header">
-                <div className="header">
-                    <Header className="website-name">Valentine Maillard</Header>
+                <div className="header-name-container">
+                    <Header className="website-name-header"><span className="website-name">Valentine Maillard</span></Header>
                 </div>
                 <div className="menu-container">
                     <Link to="" className="home-btn">Home</Link>
