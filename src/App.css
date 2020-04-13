@@ -5,13 +5,13 @@
   display: grid;
   height: auto;
   width: 100%;
-  /* margin-left: -240px; */
   min-height: auto;
   grid-template-rows: 1fr;
   grid-template-columns: 100%;
   background-color: rgba(45, 45, 45, 0.68);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
   background-image: url(https://static.parastorage.com/services/skins/2.1229.80/images/wysiwyg/core/themes/base/ironpatern.png);
+  background-position: fixed;
 }
 
 .header-name-container{
@@ -92,4 +92,47 @@
   font-weight: lighter;
   text-decoration: none;
   font-size: 20px;
+}
+
+/* presentation container css */
+.presentatio-container{
+  position: relative;
+  margin: 0px 0px 0 calc((100% - 980px) * 0.5);
+  left: 22px;
+  grid-area: 3 / 1 / 4 / 2;
+  justify-self: start;
+  align-self: start;
+  word-wrap: break-word;
+  text-align: start;
+}
+
+.my-name{
+  font-family: raleway,sans-serif;
+  color: #FFFFFF;
+  font-size: 50px;
+  font-weight: lighter;
+  width: 700px;
+  margin: 200px 0px 10px calc((100% - 980px) * 0.5);
+  left: 22px;
+  text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
+  letter-spacing: 0.05em;
+}
+
+.my-position{
+  font-family: raleway,sans-serif;
+  color: #FFFFFF;
+  font-size: 29px;
+  line-height: 1.4em;
+  width: 400px;
+  font-weight: lighter;
+  min-height: 77px;
+  position: relative;
+  margin: 0px 0px 10px calc((100% - 980px) * 0.5);
+  grid-area: 4 / 1 / 5 / 2;
+  justify-self: start;
+  align-self: start;
+  word-wrap: break-word;
+  text-align: start;
+  text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
+  letter-spacing: 0.05em;
 }
