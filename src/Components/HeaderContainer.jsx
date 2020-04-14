@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
-import { Header, Button } from 'semantic-ui-react';
+import { Header } from 'semantic-ui-react';
 
 class HeaderContainer extends Component {
 
