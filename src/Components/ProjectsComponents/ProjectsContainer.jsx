@@ -11,7 +11,7 @@ const ProjectsContainer = (props) => {
             .then(r => r.json())
             .then(projectsArr => {
                 // console.log(projectsArr)
-                updateProjects([...projects, projectsArr])
+                updateProjects(projectsArr)
             })
     }, [])
 
