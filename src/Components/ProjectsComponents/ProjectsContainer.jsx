@@ -15,15 +15,21 @@ const ProjectsContainer = (props) => {
             })
     }, [])
 
-    // console.log(projects)
     let project = projects.map(project => <ProjectsCard key={project.id} project={project} />)
+    // console.log(projects)
 
     return (
         <div className="project-container">
-            <Header className="projects-header">Projects</Header>
-            <Card.Group itemsPerRow={3} className="project-group-cards">
-                {project}
-            </Card.Group>
+            {projects.length === 0 ? 
+                <div class="loader"></div>
+                :
+                <>
+                    <Header className="projects-header">Projects</Header>
+                    <Card.Group className="project-group-cards">
+                        {project}
+                    </Card.Group>
+                </>
+            }
         </div>
     );
 };
