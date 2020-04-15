@@ -95,7 +95,7 @@
 }
 
 /* presentation container css */
-.presentatio-container{
+.presentation-container{
   position: relative;
   margin: 0px 0px 0 calc((100% - 980px) * 0.5);
   left: 22px;
@@ -112,7 +112,7 @@
   font-size: 50px;
   font-weight: lighter;
   width: 700px;
-  margin: 200px 0px 10px calc((100% - 980px) * 0.5);
+  margin: 200px 0px 10px;
   left: 22px;
   text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
   letter-spacing: 0.05em;
@@ -127,7 +127,7 @@
   font-weight: lighter;
   min-height: 77px;
   position: relative;
-  margin: 0px 0px 10px calc((100% - 980px) * 0.5);
+  margin: 0px 0px 10px;
   grid-area: 4 / 1 / 5 / 2;
   justify-self: start;
   align-self: start;
@@ -135,4 +135,81 @@
   text-align: start;
   text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
   letter-spacing: 0.05em;
+}
+
+/* Project card css */
+.project-container{
+  position: static;
+  display: grid;
+  height: auto;
+  width: 100%;
+  min-height: 853px;
+  grid-template-rows: min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content 1fr;
+  grid-template-columns: 100%;
+  background-color: #1C1B1B;
+  margin-top: 300px;
+}
+
+.projects-header{
+  width: 267px;
+  pointer-events: none;
+  position: relative;
+  margin: 36px 0px 6px 100px;
+  grid-area: 1 / 1 / 2 / 2;
+  justify-self: start;
+  align-self: start;
+  word-wrap: break-word;
+  text-align: start;
+  font: normal normal normal 65px/1.4em lulo-clean-w01-one-bold,sans-serif;
+  color: #FFFFFF;
+  font-family: raleway-semibold,raleway,sans-serif;
+  font-size: 56px;
+  letter-spacing: 0.1em;
+  font-weight: normal;
+  font-style: normal;
+  padding-bottom: 10px;
+  left: 2px;
+}
+
+.projects-header:after {
+  content: '';
+
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 1px;
+
+  border-width: 0 25px 3px;
+  border-style: solid;
+  border-color: #A5D9F0;
+}
+
+.project-group-cards{
+  /* margin-top: 7vh !important;
+  margin-left: 14vw !important;
+  margin-bottom: 10vh !important; */
+  /* margin: auto !important; */
+  padding-top: 70px;
+  display: flex !important;
+  align-items: center !important;
+  /* margin: 0px 0px 10px calc((100% - 980px) * 0.5); */
+
+}
+
+.project-info-container{
+  
+  margin: 0px 90px 0px 90px;
+  /* left: 150px; */
+  align-self: start;
+  align-content: start;
+}
+
+.project-card{
+  width: 250px !important;
+}
+
+.project-image{
+  width: 400px !important;
+  height: 269px !important;
+  /* margin-left: 50px; */
 }

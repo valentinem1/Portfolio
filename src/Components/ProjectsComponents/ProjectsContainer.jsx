@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import ProjectsCard from './ProjectsCard';
-import { Card } from 'semantic-ui-react'
+import { Card, Header } from 'semantic-ui-react'
 
 const ProjectsContainer = (props) => {
 
@@ -17,9 +17,11 @@ const ProjectsContainer = (props) => {
 
     // console.log(projects)
     let project = projects.map(project => <ProjectsCard key={project.id} project={project} />)
+
     return (
-        <div>
-            <Card.Group>
+        <div className="project-container">
+            <Header className="projects-header">Projects</Header>
+            <Card.Group itemsPerRow={3} className="project-group-cards">
                 {project}
             </Card.Group>
         </div>
