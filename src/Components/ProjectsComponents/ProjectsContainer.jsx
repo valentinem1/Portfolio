@@ -10,13 +10,11 @@ const ProjectsContainer = (props) => {
         fetch("http://localhost:4000/projects")
             .then(r => r.json())
             .then(projectsArr => {
-                // console.log(projectsArr)
                 updateProjects(projectsArr)
             })
     }, [])
 
     let project = projects.map(project => <ProjectsCard key={project.id} project={project} />)
-    // console.log(projects)
 
     return (
         <div className="project-container">

@@ -187,6 +187,7 @@
   padding-top: 70px;
   display: flex !important;
   align-items: center !important;
+  position: relative;
 }
 
 .project-info-container{
@@ -204,9 +205,9 @@
 }
 
 .project-info{
-  position: relative;
+  position: absolute;
   background: rgb(9, 19, 48);
-  background: rgba(9, 19, 48, 0.9); /* Black see-through */
+  background: rgba(9, 19, 48, 0.9);
   color: #f1f1f1;
   transition: .5s ease;
   opacity: 0;
@@ -215,8 +216,8 @@
   width: 384px;
   height: 269px;
   text-align: center;
-  top: -322px;
-  bottom: 0;
+  /* top: 0; */
+  bottom: 4px;
 }
 
 .project-card:hover .project-info{
@@ -225,7 +226,7 @@
 }
 
 .project-name{
-  padding-top: 50px;
+  /* padding-top: 50px; */
   font-family: raleway-semibold,raleway,sans-serif;
   font-size: 37px;
   letter-spacing: 1px;
