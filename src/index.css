@@ -3,7 +3,8 @@ body {
   background-image: url('./images/background.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: fixed;
+  background-position: center;
+  background-attachment: fixed;
   margin-left:auto;
   margin-right:auto;
   width: 100%;

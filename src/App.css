@@ -141,6 +141,7 @@
   position: static;
   display: grid;
   height: auto;
+  z-index: 1;
   width: 100%;
   min-height: 853px;
   grid-template-rows: min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content 1fr;
