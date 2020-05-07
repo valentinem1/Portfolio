@@ -324,10 +324,10 @@
   animation: spin 2s linear infinite;
 }
 
-@-webkit-keyframes spin {
+/* @-webkit-keyframes spin {
   0% { -webkit-transform: rotate(0deg); }
   100% { -webkit-transform: rotate(360deg); }
-}
+} */
 
 @keyframes spin {
   0% { transform: rotate(0deg); }
@@ -378,4 +378,29 @@
   border-width: 0 25px 3px;
   border-style: solid;
   border-color: #A5D9F0;
+}
+
+.flatiron-student {
+  color: #1C1B1B;
+  font-size: 31px;
+  font-family: raleway-semibold,raleway,sans-serif;
+  text-shadow: 3px 3px 5px rgba(28, 27, 27, 0.719);
+  width: 430px;
+  height: 75px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  line-height: auto;
+  background-color: #ffffff;
+  border: 5px solid #1C1B1B;
+  opacity: 0%;
+  margin-top: 100px;
+  padding: 25px 10px;
+  animation-name: experienceFadeIn;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes experienceFadeIn {
+  from { margin-left: 50px; opacity: 0%; }
+  to { margin-left: 200px; opacity: 100%;}
 }
