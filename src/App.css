@@ -265,37 +265,48 @@
   margin: 0px 30px 0px 30px;
 }
 
+.technologies-used-p{
+  color: #f1f1f1;
+  text-align: center;
+  font-family: raleway-semibold,raleway,sans-serif;
+  font-size: 17px;
+  width: 370px;
+  height: 80px;
+}
+
 .project-links-container{
-  margin-left: 110px;
-  margin-top: 15px;
+  margin-left: 60px;
 }
 
 .github-link-btn{
   border-radius: 5px;
   border-width: 1px;
   border-color: rgb(230, 230, 230);
-  margin-right: 10px;
+  background-color: rgba(204, 204, 204, 1);
+  margin-right: 30px;
+  padding: 10px;
 }
 
-.github-btn-text{
+.github-demo-btn-text{
   text-decoration: none !important;
   font-family: raleway-semibold,raleway,sans-serif;
   font-size: 20px;
   color: #1C1B1B !important;
+}
+
+.github-logo{
+  width: 20px;
+  margin-right: 4px;
+  margin-bottom: -3px;
 }
 
 .demo-link-btn{
   border-radius: 5px;
   border-width: 1px;
   border-color: rgb(230, 230, 230);
-  margin-left: 10px;
-}
-
-.demo-btn-text{
-  text-decoration: none !important;
-  font-family: raleway-semibold,raleway,sans-serif;
-  font-size: 20px;
-  color: #1C1B1B !important;
+  background-color: rgba(204, 204, 204, 1);
+  margin-left: 30px;
+  padding: 10px 15px;
 }
 
 /* loading spinner  */
