@@ -19,6 +19,7 @@
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
   background-image: url(https://static.parastorage.com/services/skins/2.1229.80/images/wysiwyg/core/themes/base/ironpatern.png);
   background-position: fixed;
+  z-index: 1;
 }
 
 .header-name-container{
@@ -155,6 +156,7 @@
   background-color: #1C1B1B;
   margin-top: 378px;
   min-width: 100%;
+  opacity: 95%;
 }
 
 .projects-header{
@@ -322,7 +324,6 @@
   animation: spin 2s linear infinite;
 }
 
-/* Safari */
 @-webkit-keyframes spin {
   0% { -webkit-transform: rotate(0deg); }
   100% { -webkit-transform: rotate(360deg); }
@@ -331,4 +332,50 @@
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
+}
+
+.experience-container{
+  position: static;
+  display: grid;
+  height: auto;
+  width: 100%;
+  min-height: 853px;
+  grid-template-rows: min-content 1fr;
+  grid-template-columns: 100%;
+  background-color: #E6E6E6;
+  opacity: 95%;
+  min-width: 100%;
+}
+
+.experience-header{
+  width: 350px;
+  position: relative;
+  margin: 36px 0px 6px 100px;
+  grid-area: 1 / 1 / 2 / 2;
+  justify-self: start;
+  align-self: start;
+  word-wrap: break-word;
+  text-align: start;
+  font: normal normal normal 65px/1.4em lulo-clean-w01-one-bold,sans-serif;
+  color: #1C1B1B;
+  font-family: raleway-semibold,raleway,sans-serif;
+  font-size: 56px;
+  letter-spacing: 0.1em;
+  font-weight: normal;
+  font-style: normal;
+  padding-bottom: 10px;
+  left: 2px;
+}
+
+.experience-header:after {
+  content: '';
+
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 1px;
+
+  border-width: 0 25px 3px;
+  border-style: solid;
+  border-color: #A5D9F0;
 }
