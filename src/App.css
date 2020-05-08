@@ -429,15 +429,15 @@
 }
 
 @keyframes arrowFadeIn {
-  0% {margin-left: -10px; opacity: 0%; border: solid #E6E6E6;}
-  /* 25% {margin-left: -10px; opacity: 25%;}
-  50% {margin-left: -10px; opacity: 0%;}
-  75%{margin-left: -10px; opacity: 20%;} */
+  0% {margin-left: -10px; opacity: 0%; border-width: solid #E6E6E6;}
+  /* 25% {margin-left: -10px; opacity: 25%;} */
+  /* 50% {margin-left: -10px; opacity: 0%; border-width: solid #e6e6e6;} */
+  75%{margin-left: -10px; opacity: 0%; border-width: solid #E6E6E6;}
   100% {margin-left: -10px; opacity: 100%;}
 }
 
 @keyframes experienceFadeIn {
-  from { margin-left: 110px; opacity: 0%; }
+  from { margin-left: 110px; opacity: 0%; z-index: 1;}
   to { margin-left: 200px; opacity: 100%;}
 }
 
