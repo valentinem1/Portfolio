@@ -381,7 +381,7 @@
   border-color: #A5D9F0;
 }
 
-.school-experience-logo{
+.experience-box{
   display: flex;
   align-items: center;
 }
@@ -390,6 +390,7 @@
   position: relative;
   justify-self: start;
   align-self: start;
+  z-index: 1;
   color: #1C1B1B;
   font-size: 31px;
   font-family: raleway-semibold,raleway,sans-serif;
@@ -408,22 +409,49 @@
   animation-duration: 1s;
   animation-timing-function: ease-in;
   animation-fill-mode: forwards;
+  outline: #1C1B1B solid;
+  z-index: 1;
+}
+
+.arrow-right{
+  border: solid #1C1B1B;
+  border-width: 0 15px 15px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  margin-top: 80px;
+  margin-left: -10px;
+  animation-name: arrowFadeIn;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  opacity: 0%;
+}
+
+@keyframes arrowFadeIn {
+  0% {margin-left: -10px; opacity: 0%; border: solid #E6E6E6;}
+  /* 25% {margin-left: -10px; opacity: 25%;}
+  50% {margin-left: -10px; opacity: 0%;}
+  75%{margin-left: -10px; opacity: 20%;} */
+  100% {margin-left: -10px; opacity: 100%;}
 }
 
 @keyframes experienceFadeIn {
-  from { margin-left: 100px; opacity: 0%; }
+  from { margin-left: 110px; opacity: 0%; }
   to { margin-left: 200px; opacity: 100%;}
 }
 
 .school-cap{
-  position: relative;
+  position: absolute;
+  /* display: inline; */
   width: 50px;
   border: 5px solid #000000;
   border-radius: 40px;
   padding: 3px;
   background-color: #ffffff;
-  margin-left: 27px;
-  margin-top: 60px;
+  margin-left: 688px;
+  margin-top: 260px;
+  animation: none;
 }
 
 .vertical-line{
