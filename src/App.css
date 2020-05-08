@@ -334,6 +334,7 @@
   100% { transform: rotate(360deg); }
 }
 
+/* Experience container css */
 .experience-container{
   position: static;
   display: grid;
@@ -380,7 +381,15 @@
   border-color: #A5D9F0;
 }
 
+.school-experience-logo{
+  display: flex;
+  align-items: center;
+}
+
 .flatiron-student {
+  position: relative;
+  justify-self: start;
+  align-self: start;
   color: #1C1B1B;
   font-size: 31px;
   font-family: raleway-semibold,raleway,sans-serif;
@@ -397,10 +406,30 @@
   padding: 25px 10px;
   animation-name: experienceFadeIn;
   animation-duration: 1s;
+  animation-timing-function: ease-in;
   animation-fill-mode: forwards;
 }
 
 @keyframes experienceFadeIn {
-  from { margin-left: 50px; opacity: 0%; }
+  from { margin-left: 100px; opacity: 0%; }
   to { margin-left: 200px; opacity: 100%;}
+}
+
+.school-cap{
+  position: relative;
+  width: 50px;
+  border: 5px solid #000000;
+  border-radius: 40px;
+  padding: 3px;
+  background-color: #ffffff;
+  margin-left: 27px;
+  margin-top: 60px;
+}
+
+.vertical-line{
+  /* position: relative; */
+  border: 3px solid #000000;
+  height: 800px;
+  margin-top: -220px;
+
 }
