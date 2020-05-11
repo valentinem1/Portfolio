@@ -153,11 +153,11 @@
   min-height: 853px;
   grid-template-rows: min-content 1fr;
   grid-template-columns: 100%;
-  background-color: #1C1B1B;
+  background-color: #A5D9F0;
   margin-top: 378px;
   min-width: 100%;
   opacity: 95%;
-  clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 96%);
+  clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 95.14%);
 }
 
 .projects-header{
@@ -170,7 +170,7 @@
   word-wrap: break-word;
   text-align: start;
   font: normal normal normal 65px/1.4em lulo-clean-w01-one-bold,sans-serif;
-  color: #FFFFFF;
+  color: #1b1c1c;
   font-family: raleway-semibold,raleway,sans-serif;
   font-size: 56px;
   letter-spacing: 0.1em;
@@ -190,7 +190,7 @@
 
   border-width: 0 25px 3px;
   border-style: solid;
-  border-color: #A5D9F0;
+  border-color: #ffffff;
 }
 
 .project-group-cards{
@@ -269,7 +269,7 @@
 }
 
 .technologies-used-p{
-  color: #f1f1f1;
+  color: #1b1c1c;
   text-align: center;
   font-family: raleway-semibold,raleway,sans-serif;
   font-size: 17px;
@@ -284,8 +284,8 @@
 .github-link-btn{
   border-radius: 5px;
   border-width: 1px;
-  border-color: rgb(230, 230, 230);
-  background-color: rgba(204, 204, 204, 1);
+  border-color: #e6e6e6;
+  background-color: #ffffff;
   margin-right: 30px;
   padding: 10px;
 }
@@ -306,8 +306,8 @@
 .demo-link-btn{
   border-radius: 5px;
   border-width: 1px;
-  border-color: rgb(230, 230, 230);
-  background-color: rgba(204, 204, 204, 1);
+  border-color: #e6e6e6;
+  background-color: #ffffff;
   margin-left: 30px;
   padding: 10px 15px;
 }
@@ -325,11 +325,6 @@
   animation: spin 2s linear infinite;
 }
 
-/* @-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
-} */
-
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
@@ -344,11 +339,11 @@
   min-height: 853px;
   grid-template-rows: min-content 1fr;
   grid-template-columns: 100%;
-  background-color: #E6E6E6;
+  background-color: #ffffff;
   opacity: 95%;
   min-width: 100%;
   clip-path: polygon(0 0%, 100% 4%, 100% 100%, 0% 100%);
-  margin-top: -40px;
+  margin-top: -42px;
 }
 
 .experience-header{
