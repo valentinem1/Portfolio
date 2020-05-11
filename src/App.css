@@ -157,6 +157,7 @@
   margin-top: 378px;
   min-width: 100%;
   opacity: 95%;
+  clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 96%);
 }
 
 .projects-header{
@@ -346,6 +347,8 @@
   background-color: #E6E6E6;
   opacity: 95%;
   min-width: 100%;
+  clip-path: polygon(0 0%, 100% 4%, 100% 100%, 0% 100%);
+  margin-top: -40px;
 }
 
 .experience-header{
