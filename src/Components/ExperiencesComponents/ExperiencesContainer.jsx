@@ -19,16 +19,16 @@ const ExperiencesContainer = () => {
                 <Image className="school-cap" src={schoolCap} alt="school-hat-logo" />
             </div>
                 <hr className="vertical-line" />
-                <div>
-                    <div className="work-school-experience-container">
-                        <div className="experience-box">
-                            <p className="wfm-buyer">Dairy Buyer, Whole Foods Market</p>
-                            <p className="arrow-left"></p>
-                        </div>
-                        <p className="wfm-buyer-experience-time">Jun 2019 - Nov 2019 Brooklyn, NY</p>
+            <div>
+                <div className="work-school-experience-container">
+                    <p className="wfm-buyer-experience-time">Jun 2019 - Nov 2019 Brooklyn, NY</p>
+                    <div className="experience-box">
+                        <p className="wfm-buyer">Dairy Buyer,<br/> Whole Foods Market</p>
+                        <p className="arrow-left"></p>
                     </div>
-                    <Image className="work-bag" src={workBag} alt="work-bag-logo" />
                 </div>
+                <Image className="work-bag" src={workBag} alt="work-bag-logo" />
+            </div>
         </div>
     );
 };

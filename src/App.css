@@ -407,15 +407,15 @@
   line-height: 1.4;
   background-color: #ffffff;
   border: 1px solid #2D2D2D;
+  box-shadow: 3px 3px 3px 3px #1c1b1bb7;
   opacity: 0%;
   margin-top: 100px;
   padding: 25px 10px;
-  animation-name: experienceFadeIn;
+  animation-name: leftExperienceFadeIn;
   animation-duration: 1s;
   animation-timing-function: ease-in;
   animation-fill-mode: forwards;
   outline: #1C1B1B solid;
-  z-index: 1;
 }
 
 .arrow-right{
@@ -426,20 +426,20 @@
   transform: rotate(-45deg);
   margin-top: 80px;
   margin-left: -10px;
-  animation-name: arrowFadeIn;
+  animation-name: leftArrowFadeIn;
   animation-duration: 1s;
   animation-timing-function: ease-in;
   animation-fill-mode: forwards;
   opacity: 0%;
 }
 
-@keyframes arrowFadeIn {
+@keyframes leftArrowFadeIn {
   0% {margin-left: -10px; opacity: 0%; border-width: solid #E6E6E6;}
   75%{margin-left: -10px; opacity: 0%; border-width: solid #E6E6E6;}
   100% {margin-left: -10px; opacity: 100%;}
 }
 
-@keyframes experienceFadeIn {
+@keyframes leftExperienceFadeIn {
   from { margin-left: 110px; opacity: 0%; z-index: 1;}
   to { margin-left: 180px; opacity: 100%;}
 }
@@ -447,11 +447,11 @@
 .school-cap{
   position: absolute;
   width: 50px;
-  border: 5px solid #000000;
+  border: 6px solid #000000;
   border-radius: 40px;
   padding: 3px;
   background-color: #ffffff;
-  margin-left: 688px;
+  margin-left: 686px;
   margin-top: -130px;
   animation: reverse;
 }
@@ -473,16 +473,104 @@
   line-height: normal;
   letter-spacing: normal;
   color: #2D2D2D;
-  animation-name: timeFadeIn;
+  animation-name: leftTimeFadeIn;
   animation-duration: 1s;
   animation-timing-function: ease-in;
   animation-fill-mode: forwards;
   opacity: 0%;
 }
 
-@keyframes timeFadeIn{
+@keyframes leftTimeFadeIn{
   from { margin-left: 250px; opacity: 0%;}
   to { margin-left: 120px; opacity: 100%;}
 }
 
+.wfm-buyer{
+  position: absolute;
+  justify-self: start;
+  align-self: start;
+  font-size: 32px;
+  font-family: raleway-semibold,raleway,sans-serif;
+  text-shadow: 4px 3px 7px #1c1b1bb7;
+  width: 410px;
+  height: 80px;
+  text-align: center;
+  word-wrap: break-word;
+  letter-spacing: 1.5px;
+  line-height: 1.4;
+  background-color: #ffffff;
+  border: 1px solid #2D2D2D;
+  box-shadow: 3px 3px 3px 3px #1c1b1bb7;
+  opacity: 0%;
+  margin-top: -467px;
+  padding: 15px 8px 21px 8px;
+  animation-name: rightExperienceFadeIn;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  outline: #1C1B1B solid;
+  z-index: 1;
+}
 
+@keyframes rightExperienceFadeIn {
+  from { margin-left: 300px; opacity: 0%; z-index: 1;}
+  to { margin-left: 167px; opacity: 100%;}
+}
+
+.arrow-left{
+  border: solid #1C1B1B;
+  border-width: 0 15px 15px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(135deg);
+  margin-top: -800px;
+  animation-name: rightArrowFadeIn;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  opacity: 0%;
+}
+
+@keyframes rightArrowFadeIn {
+  0% {margin-left: 200px; opacity: 0%; border-width: solid #E6E6E6;}
+  75%{margin-left: 200px; opacity: 0%; border-width: solid #E6E6E6;}
+  100% {margin-left: 155px; opacity: 100%;}
+}
+
+.work-bag{
+  position: absolute;
+  object-position: 50% 50%;
+  width: 48px;
+  object-fit: cover;
+  border: 6px solid #000000;
+  border-radius: 40px;
+  padding: 5px;
+  background-color: #ffffff;
+  margin-left: 685px;
+  margin-top: -440px;
+  animation: reverse;
+}
+
+
+.wfm-buyer-experience-time{
+  margin-top: -750px;
+  /* margin-left: 400px; */
+  width: 235px;
+  word-wrap: break-word;
+  text-align: center;
+  font-size: 25px;
+  font-family: avenir-light;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #2D2D2D;
+  animation-name: rightTimeFadeIn;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  opacity: 0%;
+}
+
+@keyframes rightTimeFadeIn{
+  from { margin-left: 330px; opacity: 0%;}
+  to { margin-left: 400px; opacity: 100%;}
+}
