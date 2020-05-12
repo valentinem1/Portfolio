@@ -4,6 +4,14 @@
   margin: 0;
 }
 
+.background-video{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
 /* header css */
 .page-header{
   opacity: 100%;
@@ -342,7 +350,7 @@
   background-color: #ffffff;
   opacity: 95%;
   min-width: 100%;
-  clip-path: polygon(0 0%, 100% 4%, 100% 100%, 0% 100%);
+  clip-path: polygon(0 0%, 100% 4.85%, 100% 100%, 0% 100%);
   margin-top: -42px;
 }
 
@@ -379,7 +387,19 @@
   border-color: #A5D9F0;
 }
 
-.work-school-experience-container{
+.flatiron-experience-container{
+  border: 2px solid #1b1c1c;
+  border-width: 3px;
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  text-align: center;
+  /* padding-top: 20px; */
+}
+
+
+
+/* .work-school-experience-container{
   display: flex;
   align-items: center;
 }
@@ -552,7 +572,6 @@
 
 .wfm-buyer-experience-time{
   margin-top: -750px;
-  /* margin-left: 400px; */
   width: 235px;
   word-wrap: break-word;
   text-align: center;
@@ -571,4 +590,5 @@
 @keyframes rightTimeFadeIn{
   from { margin-left: 330px; opacity: 0%;}
   to { margin-left: 400px; opacity: 100%;}
-}
+} */
+

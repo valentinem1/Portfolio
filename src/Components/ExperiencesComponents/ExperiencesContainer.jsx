@@ -8,7 +8,7 @@ const ExperiencesContainer = () => {
     return (
         <div className="experience-container">
             <Header className="experience-header">Experience</Header>
-            <div>
+            {/* <div>
                 <div className="work-school-experience-container">
                     <div className="experience-box">
                         <p className="flatiron-student">Software Engineer Student, Flatiron School</p>
@@ -28,6 +28,10 @@ const ExperiencesContainer = () => {
                     </div>
                 </div>
                 <Image className="work-bag" src={workBag} alt="work-bag-logo" />
+            </div> */}
+            <div className="flatiron-experience-container">
+                <p className="flatiron-student">Software Engineer Student, Flatiron School</p>
+                <p className="flatiron-experience-time">Nov 2019 - Mar 2020 Brooklyn, NY</p>
             </div>
         </div>
     );
