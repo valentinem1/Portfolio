@@ -4,6 +4,7 @@ import schoolCap from '../images/graduation-cap-logo.png'
 import workBag from '../images/work-logo.png'
 import flatironLogo from '../images/flatiron-logo.png'
 import wfmLogo from '../images/wfm-logo.png'
+import AuPairLogo from '../images/aupaircare-logo.png'
 
 const ExperiencesContainer = () => {
 
@@ -41,6 +42,16 @@ const ExperiencesContainer = () => {
                     <Image className="wfm-logo" src={wfmLogo} alt='whole foods market logo' />
                     <p className="flatiron-student">Dairy Buyer,<br/> Whole Foods Market</p>
                     <p className="flatiron-experience-time">Jun 2019 - Nov 2019 Brooklyn, NY</p>
+                </div>
+                <div className="flatiron-experience-container">
+                    <Image className="wfm-logo" src={wfmLogo} alt='whole foods market logo' />
+                    <p className="flatiron-student">Cashier,<br/> Whole Foods Market</p>
+                    <p className="flatiron-experience-time">Aug 2018 - Jun 2019 Brooklyn, NY</p>
+                </div>
+                <div className="flatiron-experience-container">
+                    <Image className="aupair-logo" src={AuPairLogo} alt='whole foods market logo' />
+                    <p className="flatiron-student">AuPair,<br/> AuPairCare</p>
+                    <p className="flatiron-experience-time">Oct 2015 - Feb 2017 <br/>San Francisco, CA</p>
                 </div>
             </div>
 

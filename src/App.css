@@ -161,7 +161,7 @@
   min-height: 853px;
   grid-template-rows: min-content 1fr;
   grid-template-columns: 100%;
-  background-color: #A5D9F0;
+  background-color: rgb(153, 211, 236);
   margin-top: 378px;
   min-width: 100%;
   opacity: 95%;
@@ -178,7 +178,7 @@
   word-wrap: break-word;
   text-align: start;
   font: normal normal normal 65px/1.4em lulo-clean-w01-one-bold,sans-serif;
-  color: #1b1c1c;
+  color: #0a192f;
   font-family: raleway-semibold,raleway,sans-serif;
   font-size: 56px;
   letter-spacing: 0.1em;
@@ -347,8 +347,8 @@
   min-height: 853px;
   grid-template-rows: min-content 1fr;
   grid-template-columns: 100%;
-  background-color: #ffffff;
-  opacity: 95%;
+  background-color: #0a192f;
+  opacity: 99%;
   min-width: 100%;
   clip-path: polygon(0 0%, 100% 4.85%, 100% 100%, 0% 100%);
   margin-top: -42px;
@@ -364,7 +364,7 @@
   word-wrap: break-word;
   text-align: start;
   font: normal normal normal 65px/1.4em lulo-clean-w01-one-bold,sans-serif;
-  color: #1C1B1B;
+  color: #ccd6f6;
   font-family: raleway-semibold,raleway,sans-serif;
   font-size: 56px;
   letter-spacing: 0.1em;
@@ -384,7 +384,7 @@
 
   border-width: 0 25px 3px;
   border-style: solid;
-  border-color: #A5D9F0;
+  border-color: #64ffda;
 }
 
 .experience-list{
@@ -394,7 +394,7 @@
 }
 
 .flatiron-experience-container{
-  border: 7px solid #A5D9F0;
+  border: 2px solid #64ffda;
   border-radius: 150px;
   /* transform: rotate(20deg); */
   width: 250px;
@@ -406,7 +406,9 @@
   letter-spacing: 0.1em;
   font-weight: normal;
   font-style: normal;
-  padding: 18px;
+  color: #ccd6f6;
+  padding: 16px;
+  padding-top: 30px;
   animation-name: experienceFadeIn;
   animation-duration: 2s;
   animation-timing-function: ease-in;
@@ -420,11 +422,17 @@
 }
 
 .flatiron-logo{
-  width: 150px;
+  width: 120px;
 }
 
 .wfm-logo{
-  width: 120px;
+  width: 100px;
+}
+
+.aupair-logo{
+  width: 100px;
+  height: 70px;
+  border-radius: 5px;
 }
 
 /* .work-school-experience-container{
