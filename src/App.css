@@ -32,7 +32,7 @@
 
 .header-name-container{
   position: relative;
-  margin: 25px 0px 25px calc((100% - 980px) * 0.5);
+  margin: 25px 0px 25px 210px;
   left: 22px;
   grid-area: 1 / 1 / 2 / 2;
   justify-self: start;
@@ -113,7 +113,7 @@
 /* presentation container css */
 .presentation-container{
   position: relative;
-  margin: 0px 0px 0 calc((100% - 980px) * 0.5);
+  margin: 300px 0px 0 230px;
   grid-area: 3 / 1 / 4 / 2;
   justify-self: start;
   align-self: start;
@@ -387,17 +387,45 @@
   border-color: #A5D9F0;
 }
 
-.flatiron-experience-container{
-  border: 2px solid #1b1c1c;
-  border-width: 3px;
-  width: 250px;
-  height: 250px;
+.experience-list{
+  display: flex;
+  align-items: center;
   margin: auto;
-  text-align: center;
-  /* padding-top: 20px; */
 }
 
+.flatiron-experience-container{
+  border: 7px solid #A5D9F0;
+  border-radius: 150px;
+  /* transform: rotate(20deg); */
+  width: 250px;
+  height: 250px;
+  margin: 25px;
+  text-align: center;
+  font-size: 18px;
+  font-family: raleway-semibold,raleway,sans-serif;
+  letter-spacing: 0.1em;
+  font-weight: normal;
+  font-style: normal;
+  padding: 18px;
+  animation-name: experienceFadeIn;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
 
+@keyframes experienceFadeIn{
+  from {margin-left: 800px; opacity: 0;}
+  to {margin-left: 25px; opacity: 100%;}
+}
+
+.flatiron-logo{
+  width: 150px;
+}
+
+.wfm-logo{
+  width: 120px;
+}
 
 /* .work-school-experience-container{
   display: flex;

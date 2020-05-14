@@ -2,6 +2,8 @@ import React from 'react';
 import { Header, Image } from 'semantic-ui-react'
 import schoolCap from '../images/graduation-cap-logo.png'
 import workBag from '../images/work-logo.png'
+import flatironLogo from '../images/flatiron-logo.png'
+import wfmLogo from '../images/wfm-logo.png'
 
 const ExperiencesContainer = () => {
 
@@ -29,10 +31,19 @@ const ExperiencesContainer = () => {
                 </div>
                 <Image className="work-bag" src={workBag} alt="work-bag-logo" />
             </div> */}
-            <div className="flatiron-experience-container">
-                <p className="flatiron-student">Software Engineer Student, Flatiron School</p>
-                <p className="flatiron-experience-time">Nov 2019 - Mar 2020 Brooklyn, NY</p>
+            <div className="experience-list">
+                <div className="flatiron-experience-container">
+                    <Image className="flatiron-logo" src={flatironLogo} alt='flatiron school logo' />
+                    <p className="flatiron-student">Software Engineer Student, Flatiron School</p>
+                    <p className="flatiron-experience-time">Nov 2019 - Mar 2020 Brooklyn, NY</p>
+                </div>
+                <div className="flatiron-experience-container">
+                    <Image className="wfm-logo" src={wfmLogo} alt='whole foods market logo' />
+                    <p className="flatiron-student">Dairy Buyer,<br/> Whole Foods Market</p>
+                    <p className="flatiron-experience-time">Jun 2019 - Nov 2019 Brooklyn, NY</p>
+                </div>
             </div>
+
         </div>
     );
 };
