@@ -7,6 +7,7 @@ import PresentationContainer from './Components/PresentationContainer'
 import ProjectsContainer from './Components/ProjectsComponents/ProjectsContainer'
 import ExperiencesContainer from './Components/ExperiencesComponents/ExperiencesContainer'
 import AboutContainer from './Components/AboutComponents/AboutContainer'
+import FooterContainer from './Components/FooterContainer'
 
 import backgroundVideo from './Components/images/background.mp4'
 
@@ -23,6 +24,7 @@ class App extends Component {
         <ProjectsContainer />
         <ExperiencesContainer />
         <AboutContainer />
+        <FooterContainer />
       </div>
     )
   }

@@ -568,9 +568,41 @@
 .bio{
   text-align: center;
   margin-left: 80px;
+  margin-bottom: 60px;
   font-family: raleway-semibold,raleway,sans-serif;
   font-weight: lighter;
   font-size: 15px;
   letter-spacing: 0.03em;
   line-height: 1.9em;
+}
+
+.footer-container{
+  height: 65px;
+  position: static;
+  display: grid;
+  width: 100%;
+  grid-template-rows: min-content 1fr;
+  grid-template-columns: 100%;
+  opacity: 95%;
+  min-width: 100%;
+}
+
+.footer-text{
+  font-size: 15px;
+  font-family: raleway-semibold,raleway,sans-serif;
+  font-weight: lighter;
+  color: #BEC7D5;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.email-link{
+  text-decoration: underline dotted ;
+  color: #BEC7D5;
+}
+
+.email-link:hover{
+  color: #f1f1f1;
+  text-decoration: none;
 }
