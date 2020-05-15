@@ -76,38 +76,25 @@
   text-align: center;
 }
 
-.home-btn{
+.header-buttons{
   width: 138px;
   height: 50px;
   position: relative;
   box-sizing: border-box;
   overflow: visible;
   display: inline-block;
-  padding: 0 5px;
+  padding: 5px 10px;
   text-align: center;
   line-height: 50px;
-  color: #ffffff;
-  font-family: 'Roboto', sans-serif;
+  color: #939DAB;
+  font-family: avenir-lt-w01_35-light1475496,sans-serif;
   font-weight: lighter;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 17px;
 }
 
-.projects-btn{
-  width: 138px;
-  height: 50px;
-  position: relative;
-  box-sizing: border-box;
-  overflow: visible;
-  display: inline-block;
-  padding: 0 5px;
-  text-align: center;
-  line-height: 50px;
-  color: #ffffff;
-  font-family: 'Roboto', sans-serif;
-  font-weight: lighter;
-  text-decoration: none;
-  font-size: 20px;
+.header-buttons:hover{
+  color: #e0e0e0;
 }
 
 /* presentation container css */
@@ -352,13 +339,13 @@
   min-width: 100%;
   clip-path: polygon(0 0%, 100% 4.85%, 100% 93%, 0% 100%);
   margin-top: -50px;
-  padding-bottom: 130px;
+  padding-bottom: 200px;
 }
 
 .experience-header{
   width: 350px;
   position: relative;
-  margin: 36px 0px 6px 100px;
+  margin: 50px 0px 6px 100px;
   grid-area: 1 / 1 / 2 / 2;
   justify-self: start;
   align-self: start;
