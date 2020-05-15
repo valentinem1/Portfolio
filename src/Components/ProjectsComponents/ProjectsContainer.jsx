@@ -19,7 +19,7 @@ const ProjectsContainer = (props) => {
     return (
         <div className="project-container">
             {projects.length === 0 ? 
-                <div class="loader"></div>
+                <div className="loader"></div>
                 :
                 <>
                     <Header className="projects-header">Projects</Header>

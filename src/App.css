@@ -345,7 +345,7 @@
 .experience-header{
   width: 350px;
   position: relative;
-  margin: 50px 0px 6px 100px;
+  margin: 36px 0px 6px 100px;
   grid-area: 1 / 1 / 2 / 2;
   justify-self: start;
   align-self: start;
@@ -575,13 +575,13 @@
 }
 
 .footer-text{
-  font-size: 15px;
+  font-size: 14px;
   font-family: raleway-semibold,raleway,sans-serif;
-  font-weight: lighter;
+  font-weight: normal;
   color: #BEC7D5;
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 30px;
+  margin-top: 45px;
+  margin-bottom: 15px;
 }
 
 .email-link{
@@ -592,4 +592,32 @@
 .email-link:hover{
   color: #f1f1f1;
   text-decoration: none;
+}
+
+.up-btn-container{
+  display: flex;
+  align-items: center;
+}
+
+.back-to-top-btn{
+  margin-left: 1250px;
+  margin-bottom: 30px;
+  width: 140px;
+  height: 43px;
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+  letter-spacing: 0.05em;
+}
+
+.arrow-up{
+  margin-left: 6px;
+  font-size: 12px;
+}
+
+.back-to-top-btn:hover{
+  background-color: #ffffff;
+  color: #000000;
+  border-color: #000000;
 }

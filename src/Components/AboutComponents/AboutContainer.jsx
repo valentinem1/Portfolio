@@ -5,7 +5,16 @@ import githubLogo from '../images/github-logo.png'
 import linkedInLogo from '../images/linkedin-logo.png'
 import resume from '../images/Valentine-Maillard-Resume.pdf'
 
+const handleUpClick = (event) => {
+    event.preventDefault()
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    })
+}
+
 const AboutContainer = () => {
+
     return (
         <div className="about-me-container">
             <Header className="about-header">About me</Header>
@@ -35,6 +44,7 @@ const AboutContainer = () => {
                     </p>
                 </div>
             </div>
+                <Button className="back-to-top-btn" onClick={handleUpClick}>Back to Top <span className="arrow-up">↑</span></Button>
         </div>
     );
 };

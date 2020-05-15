@@ -6,7 +6,6 @@ class HeaderContainer extends Component {
 
     handleHomeClick = (event) => {
         event.preventDefault()
-        event.preventDefault()
         window.scrollTo({
             top: 0,
             behavior: "smooth"
@@ -32,13 +31,12 @@ class HeaderContainer extends Component {
     handleAboutClick = (event) => {
         event.preventDefault()
         window.scrollTo({
-            top: 2600,
+            top: 2650,
             behavior: "smooth"
         })
     }
 
     render() {
-        console.log(window)
         return (
             <div className="page-header">
                 <div className="header-name-container">

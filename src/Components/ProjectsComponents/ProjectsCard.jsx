@@ -4,7 +4,7 @@ import githubLogo from '../images/github-logo.png'
 import youtubeLogo from '../images/youtube-logo.png'
 const ProjectsCard = (props) => {
     
-    let { name, description, image, github, demo, live_website, technologies } = props.project
+    let { name, description, image, github, demo, technologies } = props.project
     return (
         <div className="project-info-container">
             <Card className="project-card">
