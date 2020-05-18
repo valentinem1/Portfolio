@@ -12,6 +12,7 @@ import stripeLogo from '../images/stripe-api-logo.jpg'
 import htmlLogo from '../images/html-logo.png'
 import gitLogo from '../images/git-logo.png'
 import herokuLogo from '../images/heroku-logo.png'
+import githubLogo from '../images/github-logo.png'
 
 const SkillsContainer = () => {
 
@@ -30,6 +31,7 @@ const SkillsContainer = () => {
                 <Image className="skills-images" src={stripeLogo} alt="" />
                 <Image className="skills-images" src={htmlLogo} alt="" />
                 <Image className="skills-images" src={gitLogo} alt="" />
+                <Image className="skills-images" src={githubLogo} alt="" />
                 <Image className="skills-images" src={herokuLogo} alt="" />
             </div>
         </div>

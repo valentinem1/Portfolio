@@ -31,7 +31,7 @@ class HeaderContainer extends Component {
     handleSkillsClick = (event) => {
         event.preventDefault()
         window.scrollTo({
-            top: 2650,
+            top: 2575,
             behavior: "smooth"
         })
     }
@@ -39,7 +39,7 @@ class HeaderContainer extends Component {
     handleAboutClick = (event) => {
         event.preventDefault()
         window.scrollTo({
-            top: 2650,
+            top: 3700,
             behavior: "smooth"
         })
     }
