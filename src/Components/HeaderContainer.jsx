@@ -28,6 +28,14 @@ class HeaderContainer extends Component {
         })
     }
 
+    handleSkillsClick = (event) => {
+        event.preventDefault()
+        window.scrollTo({
+            top: 2650,
+            behavior: "smooth"
+        })
+    }
+
     handleAboutClick = (event) => {
         event.preventDefault()
         window.scrollTo({
@@ -46,6 +54,7 @@ class HeaderContainer extends Component {
                     <Link to="" className="header-buttons" onClick={this.handleHomeClick}>HOME</Link>
                     <Link to="" className="header-buttons" onClick={this.handleProjectClick}>PROJECTS</Link>
                     <Link to="" className="header-buttons" onClick={this.handleExperienceClick}>EXPERIENCE</Link>
+                    <Link to="" className="header-buttons" onClick={this.handleSkillsClick}>SKILLS</Link>
                     <Link to="" className="header-buttons" onClick={this.handleAboutClick}>ABOUT</Link>
                 </div>
             </div>

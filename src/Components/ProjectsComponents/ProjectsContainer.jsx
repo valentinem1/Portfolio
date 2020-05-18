@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import ProjectsCard from './ProjectsCard';
 import { Card, Header } from 'semantic-ui-react'
 
 const ProjectsContainer = (props) => {
 
-    const [projects, updateProjects] = useState([{
+    const [projects] = useState([{
         "id": 1,
         "name": "Watif",
         "description": "An e-marketplace modeled after Etsy - allowing creativity and uniqueness in products from handmade to vintage items and craft supplies.",

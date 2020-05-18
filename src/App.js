@@ -6,6 +6,7 @@ import HeaderContainer from './Components/HeaderContainer';
 import PresentationContainer from './Components/PresentationContainer'
 import ProjectsContainer from './Components/ProjectsComponents/ProjectsContainer'
 import ExperiencesContainer from './Components/ExperiencesComponents/ExperiencesContainer'
+import SkillsContainer from './Components/SkillsComponents/SkillsContainer'
 import AboutContainer from './Components/AboutComponents/AboutContainer'
 import FooterContainer from './Components/FooterContainer'
 
@@ -23,6 +24,7 @@ class App extends Component {
         <PresentationContainer />
         <ProjectsContainer />
         <ExperiencesContainer />
+        <SkillsContainer />
         <AboutContainer />
         <FooterContainer />
       </div>
