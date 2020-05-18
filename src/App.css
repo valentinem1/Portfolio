@@ -273,7 +273,8 @@
 }
 
 .project-links-container{
-  margin-left: 60px;
+  /* text-align: center; */
+  margin-left: 50px;
 }
 
 .github-link-btn{
@@ -305,6 +306,21 @@
   background-color: #ffffff;
   margin-left: 30px;
   padding: 10px 15px;
+}
+
+.live-website-link-btn{
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #e6e6e6;
+  background-color: #ffffff;
+  /* margin-left: 20px; */
+  padding: 10px 20px;
+}
+
+.web-logo{
+  width: 20px;
+  margin-right: 4px;
+  margin-bottom: -3px;
 }
 
 /* loading spinner  */
