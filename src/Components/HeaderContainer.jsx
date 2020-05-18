@@ -15,7 +15,7 @@ class HeaderContainer extends Component {
     handleProjectClick = (event) => {
         event.preventDefault()
         window.scrollTo({
-            top: 800,
+            top: 790,
             behavior: "smooth"
         })
     }
@@ -23,7 +23,7 @@ class HeaderContainer extends Component {
     handleExperienceClick = (event) => {
         event.preventDefault()
         window.scrollTo({
-            top: 1600,
+            top: 1620,
             behavior: "smooth"
         })
     }
@@ -31,7 +31,7 @@ class HeaderContainer extends Component {
     handleSkillsClick = (event) => {
         event.preventDefault()
         window.scrollTo({
-            top: 2575,
+            top: 2520,
             behavior: "smooth"
         })
     }
@@ -39,7 +39,7 @@ class HeaderContainer extends Component {
     handleAboutClick = (event) => {
         event.preventDefault()
         window.scrollTo({
-            top: 3700,
+            top: 3740,
             behavior: "smooth"
         })
     }
