@@ -67,7 +67,6 @@
   grid-area: 1 / 1 / 2 / 2;
   justify-self: start;
   align-self: start;
-  /* width: calc(100% - 980px); */
   height: calc(100% - 0px);
   white-space: nowrap;
   display: inline-block;
@@ -384,7 +383,6 @@
 .flatiron-experience-container{
   border: 2px solid #64ffda;
   border-radius: 150px;
-  /* transform: rotate(20deg); */
   width: 250px;
   height: 250px;
   margin: 25px;
@@ -436,7 +434,7 @@
   opacity: 95%;
   min-width: 100%;
   clip-path: polygon(0 4.5%, 100% 0%, 100% 100%, 0% 100%);
-  margin-top: -70px;
+  margin-top: -75px;
 }
 
 .about-header{

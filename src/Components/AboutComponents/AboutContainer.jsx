@@ -39,7 +39,7 @@ const AboutContainer = () => {
                     I am ready to use my skills and technology to find solutions to real-world problems and building interactive, high-quality products that can improve the way people interact with information and one another around the globe. I am passionate and love to create software that delivers a deep and meaningful impact on people's lives.<br/><br/>
                     When I am not coding you can find me playing basketball, video games or at the dog park with my dog Shaq. Let's connect!<br/><br/>
                     Proficient: Ruby on Rails, JavaScript, React, Redux, PostgreSQL, Git, GitHub, Restful API, Stripe API, HTML, CSS, Semantic UI, Wix<br/><br/>
-                    Knowledgeable: SQLite, Heroku<br/><br/>
+                    Knowledgeable: SQLite, Heroku, Docker, Datadog Agent<br/><br/>
                     Weakness: 🏀 NBA Lover...
                     </p>
                 </div>
