@@ -50,11 +50,11 @@ class HeaderContainer extends Component {
                     <Header className="website-name-header"><span className="website-name">Valentine Maillard</span></Header>
                 </div>
                 <div className="menu-container">
-                    <a to="" className="header-buttons" onClick={this.handleHomeClick}>HOME</a>
-                    <a to="" className="header-buttons" onClick={this.handleProjectClick}>PROJECTS</a>
-                    <a to="" className="header-buttons" onClick={this.handleExperienceClick}>EXPERIENCE</a>
-                    <a to="" className="header-buttons" onClick={this.handleSkillsClick}>SKILLS</a>
-                    <a to="" className="header-buttons" onClick={this.handleAboutClick}>ABOUT</a>
+                    <ul to="" className="header-buttons" onClick={this.handleHomeClick}>HOME</ul>
+                    <ul to="" className="header-buttons" onClick={this.handleProjectClick}>PROJECTS</ul>
+                    <ul to="" className="header-buttons" onClick={this.handleExperienceClick}>EXPERIENCE</ul>
+                    <ul to="" className="header-buttons" onClick={this.handleSkillsClick}>SKILLS</ul>
+                    <ul to="" className="header-buttons" onClick={this.handleAboutClick}>ABOUT</ul>
                 </div>
             </div>
         );

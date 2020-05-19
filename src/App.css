@@ -69,28 +69,23 @@
   align-self: start;
   height: calc(100% - 0px);
   white-space: nowrap;
-  display: inline-block;
+  display: inline-flex;
   overflow: visible;
   position: absolute;
   text-align: center;
+  align-items: center;
 }
 
 .header-buttons{
-  /* width: 125px; */
   height: 50px;
-  /* position: relative; */
-  /* box-sizing: border-box; */
-  /* overflow: visible; */
-  /* display: inline-block; */
   padding: 10px 30px;
   text-align: center;
-  line-height: 60px;
+  line-height: 35px;
   color: #939DAB;
   font-family: avenir-lt-w01_35-light1475496,sans-serif;
   font-weight: lighter;
   text-decoration: none;
   font-size: 17px;
-
 }
 
 .header-buttons:hover{
