@@ -20,9 +20,9 @@
     "semantic-ui-react": "^0.88.2"
   },
   "scripts": {
-    "dev-server": "webpack-dev-server --open",
-    "start": "node server.js",
-    "build": "webpack -p",
+    "dev": "react-scripts start",
+    "start": "serve -s build",
+    "build": "react-scripts build",
     "heroku-postbuild": "npm run build"
   },
   "eslintConfig": {
