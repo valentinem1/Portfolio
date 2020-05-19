@@ -12,18 +12,16 @@
         "@testing-library/react": "^9.3.2",
         "@testing-library/user-event": "^7.1.2",
         "express": "^4.17.1",
-        "gh-pages": "^2.2.0",
+        "express-favicon": "^2.0.1",
         "react": "^16.13.1",
         "react-dom": "^16.13.1",
         "react-scripts": "3.4.1",
         "semantic-ui-react": "^0.88.2"
     },
     "scripts": {
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -b master -d build",
         "start": "react-scripts start",
         "build": "react-scripts build",
-        "test": "react-scripts test",
+        "test": "react-scripts test --env=jsdom",
         "eject": "react-scripts eject"
     },
     "eslintConfig": {
