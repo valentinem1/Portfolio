@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import './App.css';
 
-import { withRouter } from 'react-router-dom'
 import HeaderContainer from './Components/HeaderContainer';
 import PresentationContainer from './Components/PresentationContainer'
 import ProjectsContainer from './Components/ProjectsComponents/ProjectsContainer'
@@ -33,4 +32,4 @@ class App extends Component {
 }
 
 
-export default withRouter(App);
+export default App;
