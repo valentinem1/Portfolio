@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './App.css';
+import './App.css'
 
 import HeaderContainer from './Components/HeaderContainer';
 import PresentationContainer from './Components/PresentationContainer'
@@ -15,7 +15,7 @@ class App extends Component {
   
   render() {
     return (
-      <div className="app">
+      <div className="app" style={'opacity: 1'}>
         <video autoPlay={true} muted loop preload="auto" className="background-video"
           src={backgroundVideo} type="video/mp4"
         />

@@ -14,7 +14,7 @@
 
 /* header css */
 .page-header{
-  opacity: 100%;
+  /* opacity: 1; */
   position: fixed;
   display: grid;
   height: auto;
