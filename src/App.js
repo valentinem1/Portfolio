@@ -15,7 +15,7 @@ class App extends Component {
   
   render() {
     return (
-      <div className="app" style={'opacity: 1'}>
+      <div className="app">
         <video autoPlay={true} muted loop preload="auto" className="background-video"
           src={backgroundVideo} type="video/mp4"
         />
