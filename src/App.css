@@ -14,7 +14,7 @@
 
 /* header css */
 .page-header{
-  /* opacity: 1; */
+  opacity: 1;
   position: fixed;
   display: grid;
   height: auto;
@@ -146,7 +146,7 @@
   background-color: #64ffda;
   margin-top: 378px;
   min-width: 100%;
-  opacity: 95%;
+  opacity: 0.95;
   clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 95.14%);
 }
 
@@ -346,7 +346,7 @@
   grid-template-rows: min-content 1fr;
   grid-template-columns: 100%;
   background-color: #0a192f;
-  opacity: 98%;
+  opacity: 0.98;
   min-width: 100%;
   clip-path: polygon(0 0%, 100% 4.85%, 100% 100%, 0% 100%);
   margin-top: -50px;
@@ -416,7 +416,7 @@
 
 @keyframes experienceFadeIn{
   from {margin-left: 800px; opacity: 0;}
-  to {margin-left: 25px; opacity: 100%;}
+  to {margin-left: 25px; opacity: 1;}
 }
 
 .flatiron-logo{
@@ -443,7 +443,7 @@
   grid-template-rows: min-content 1fr;
   grid-template-columns: 100%;
   background-color: #0a192f;
-  opacity: 98%;
+  opacity: 0.98;
   min-width: 100%;
   clip-path: polygon(0 0%, 100% 0%, 100% 96%, 0% 100%);
   padding-bottom: 250px;
@@ -507,7 +507,7 @@
   grid-template-rows: min-content 1fr;
   grid-template-columns: 100%;
   background-color: #ffffff;
-  opacity: 95%;
+  opacity: 0.95;
   min-width: 100%;
   clip-path: polygon(0 4%, 100% 0%, 100% 100%, 0% 100%);
   margin-top: -50px;
@@ -623,7 +623,7 @@
 }
 
 .resume-download:hover{
-  opacity: 90%;
+  opacity: 0.90;
 }
 
 .bio{
@@ -644,7 +644,7 @@
   width: 100%;
   grid-template-rows: min-content 1fr;
   grid-template-columns: 100%;
-  opacity: 95%;
+  opacity: 0.95;
   min-width: 100%;
 }
 
