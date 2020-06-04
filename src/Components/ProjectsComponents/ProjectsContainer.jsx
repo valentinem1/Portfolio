@@ -11,7 +11,7 @@ const ProjectsContainer = (props) => {
         "image": "https://i.postimg.cc/W3tJMTDb/watif.png",
         "github": "https://github.com/valentinem1/watif_frontend",
         "demo": "https://www.youtube.com/watch?v=DtVUKqseap8",
-        "live_website": "",
+        "live_website": "https://watif.herokuapp.com/",
         "technologies": "Built with React, Redux, Ruby on Rails, PostgreSQL, Semantic UI, CSS3, Stripe API, Esty API"
         },
         {
