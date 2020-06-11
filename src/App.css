@@ -198,7 +198,7 @@
 }
 
 .project-image{
-  width: 384px !important;
+  width: 375px !important;
   height: 269px !important;
   object-position: 50% 50%;
   object-fit: cover;
@@ -556,8 +556,8 @@
 }
 
 .profile-picture{
-  width: 216px;
-  height: 217px;
+  width: 180px;
+  height: 200px;
   object-fit: initial;
   border-radius: 150px;
 }
