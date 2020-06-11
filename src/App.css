@@ -552,14 +552,16 @@
 }
 
 .position-profile-box{
-  margin-top: -370px;
+  margin-top: -430px;
+  margin-right: 50px;
 }
 
 .profile-picture{
   width: 180px;
   height: 200px;
   object-fit: initial;
-  border-radius: 150px;
+  border-radius: 15px;
+  margin-left: 35px;
 }
 
 .name{
@@ -568,6 +570,7 @@
   font-size: 20px;
   line-height: 0.8em;
   text-align: center;
+  width: 250px;
 }
 
 .profession{
@@ -588,7 +591,7 @@
 .websites-container{
   display: flex;
   align-self: center;
-  margin-left: 35px;
+  margin-left: 45px;
   margin-bottom: 40px;
 }
 
@@ -619,7 +622,7 @@
   font-weight: lighter;
   padding: 12px 20px;
   text-decoration: none;
-  margin-left: 35px;
+  margin-left: 45px;
 }
 
 .resume-download:hover{
@@ -628,7 +631,7 @@
 
 .bio{
   text-align: center;
-  margin-left: 80px;
+  margin-left: 60px;
   margin-bottom: 60px;
   font-family: raleway-semibold,raleway,sans-serif;
   font-weight: lighter;
