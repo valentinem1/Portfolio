@@ -18,20 +18,22 @@ const ProjectsCard = (props) => {
                 <p className="technologies-used-p">{technologies}</p>
             </Card>
             <div className={live_website !== "" ? null : "project-links-container"}>
-                <Button className="github-link-btn">
+                <Button className="project-links-btn github-link-btn">
                     <Image className="github-logo" src={githubLogo} alt='github-logo' />
                     <a className="github-demo-btn-text" target="_blank" rel="noopener noreferrer" href={github}>GitHub</a>
                 </Button>
                 {live_website !== "" ? 
-                <Button className="live-website-link-btn">
+                <Button className="project-links-btn live-website-link-btn">
                     <Image className="web-logo" src={webLogo} alt='web-logo' />
                     <a className="github-demo-btn-text" target="_blank" rel="noopener noreferrer" href={live_website}>Live</a>
-                </Button> : null
+                </Button> : null 
                 }
-                <Button className="demo-link-btn">
+                {demo !== "" ? 
+                <Button className="project-links-btn demo-link-btn">
                     <Image className="github-logo" src={youtubeLogo} alt='github-logo' />
                     <a className="github-demo-btn-text" target="_blank" rel="noopener noreferrer" href={demo}>Demo</a>
-                </Button>
+                </Button> : null
+                }
             </div>
         </div>
     );
