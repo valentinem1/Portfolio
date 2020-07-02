@@ -457,7 +457,7 @@
   background-color: #0a192f;
   opacity: 0.98;
   min-width: 100%;
-  clip-path: polygon(0 0%, 100% 0%, 100% 96%, 0% 100%);
+  clip-path: polygon(0 0%, 100% 0%, 100% 97%, 0% 100%);
   padding-bottom: 250px;
 }
 
@@ -521,8 +521,8 @@
   background-color: #ffffff;
   opacity: 0.95;
   min-width: 100%;
-  clip-path: polygon(0 4%, 100% 0%, 100% 100%, 0% 100%);
-  margin-top: -50px;
+  clip-path: polygon(0 3%, 100% 0%, 100% 100%, 0% 100%);
+  margin-top: -49px;
 }
 
 .about-header{
